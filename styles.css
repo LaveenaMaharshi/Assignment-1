@@ -1,0 +1,29 @@
+body{
+    background-color: aquamarine;
+}
+
+a:hover{
+    color: #be2773;
+}
+a:visited{
+    color:teal;
+}
+
+table,td,th,tr{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th{
+    padding: 5px;
+    margin: 5px;
+}
+
+tr:nth-child(odd){
+    background-color: grey;
+}
+
+.country-list{
+    list-style-type: square;
+    color:yellowgreen
+}
